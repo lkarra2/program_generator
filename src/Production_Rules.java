@@ -108,7 +108,7 @@ public class Production_Rules {
             for (int i = 0; i < 4; i++) { //capped at adding 5 values so the returned list is not too long
                 random = rand.nextInt(2) + 1;
                 if (random == 1) { //add another value
-                    random = rand.nextInt(9) + 0; //generate another value to add
+                    random = rand.nextInt(10); //generate another value to add
                     eq.add("" + random);
                 } else {
                     break; //break from for loop
@@ -132,22 +132,22 @@ public class Production_Rules {
         need to fix boundary for rand.nextInt() to be between 65 - 90 for A-Z and 97-122 for a-z
         rand.nextInt(int x) is from 0 (inclusive) to x (exclusive)
          */
-        eq.add("V"); //temp will change to values accordingly
+        //eq.add("V"); //temp will change to values accordingly
 
-        /*
+
         eq.add("_");
         int random = rand.nextInt(2) + 1;
 
         if(random == 1){ //upper case
-            //int start = 65;
-            random = rand.nextInt(90) + 65;
-            char l = (char)(random);
+            int A = 65;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + A);
             eq.add("" + l);
         }
         else{ //lower case
-            //int start = 65;
-            random = rand.nextInt(122) + 97;
-            char l = (char)(random);
+            int a = 97;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + a);
             eq.add("" + l);
         }
 
@@ -155,25 +155,25 @@ public class Production_Rules {
 
         random = rand.nextInt(3) + 1;
         if(random == 1){ //upper case
-            //int start = 65;
-            random = rand.nextInt(90) + 65;
-            char l = (char)(random);
+            int A = 65;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + A);
             eq.add("" + l);
         }
         else if(random == 2){ //lower case
-            //int start = 65;
-            random = rand.nextInt(122) + 97;
-            char l = (char)(random);
+            int a = 97;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + a);
             eq.add("" + l);
         }
         else{
-            random = rand.nextInt(9) + 0;
+            random = rand.nextInt(10);
             eq.add(""+random);
         }
 
         random = rand.nextInt(255) + 1; //not sure about this one since its {1-255}
         eq.add(""+random);
-        */
+
 
         return eq;
     }

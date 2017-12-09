@@ -4,7 +4,7 @@
     <list default="true" id="1c99a888-f6d5-483e-9612-e1708a0ba5f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Production_Rules.java" afterPath="$PROJECT_DIR$/src/Production_Rules.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Testing.java" afterPath="$PROJECT_DIR$/src/Testing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RandomExpression.java" afterPath="$PROJECT_DIR$/src/RandomExpression.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomExpression.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RandomExpression.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RandomExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="544">
+              <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Production_Rules.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Production_Rules.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Production_Rules.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="132" column="66" lean-forward="false" selection-start-line="132" selection-start-column="66" selection-end-line="132" selection-end-column="66" />
+            <state relative-caret-position="1097">
+              <caret line="110" column="53" lean-forward="false" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
               <folding>
                 <element signature="e#759#767#0" expanded="true" />
                 <element signature="e#1221#1229#0" expanded="true" />
@@ -37,7 +37,7 @@
                 <element signature="e#1737#1745#0" expanded="true" />
                 <element signature="e#2156#2164#0" expanded="true" />
                 <element signature="e#2596#2604#0" expanded="true" />
-                <element signature="e#3715#3723#0" expanded="true" />
+                <element signature="e#3712#3720#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +80,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Testing.java" />
         <option value="$PROJECT_DIR$/src/Production_Rules.java" />
+        <option value="$PROJECT_DIR$/src/RandomExpression.java" />
       </list>
     </option>
   </component>
@@ -291,12 +292,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512848355744</updated>
       <workItem from="1512848356970" duration="617000" />
-      <workItem from="1512849276987" duration="4321000" />
+      <workItem from="1512849276987" duration="5447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4938000" />
+    <option name="totallyTimeSpent" value="6064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -310,9 +311,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19843924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19843924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14072494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -361,7 +362,7 @@
             <element signature="e#1737#1745#0" expanded="true" />
             <element signature="e#2156#2164#0" expanded="true" />
             <element signature="e#2596#2604#0" expanded="true" />
-            <element signature="e#3715#3723#0" expanded="true" />
+            <element signature="e#3712#3720#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -378,14 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RandomExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -410,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Production_Rules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="132" column="66" lean-forward="false" selection-start-line="132" selection-start-column="66" selection-end-line="132" selection-end-column="66" />
+        <state relative-caret-position="1097">
+          <caret line="110" column="53" lean-forward="false" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
           <folding>
             <element signature="e#759#767#0" expanded="true" />
             <element signature="e#1221#1229#0" expanded="true" />
@@ -419,8 +412,16 @@
             <element signature="e#1737#1745#0" expanded="true" />
             <element signature="e#2156#2164#0" expanded="true" />
             <element signature="e#2596#2604#0" expanded="true" />
-            <element signature="e#3715#3723#0" expanded="true" />
+            <element signature="e#3712#3720#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
