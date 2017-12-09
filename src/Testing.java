@@ -68,6 +68,18 @@ public class Testing {
 		}
 		
 		System.out.println();
+		Random rand = new Random();
+		int rand_expression = rand.nextInt(5) + 1; //5 is max, 1 is min  //used to choose production rule, 1-5
+		//Testing bounds for production rule 1-5
+		System.out.println("Testing bounds, if nothing printed then it is within bounds");
+		for(int i = 0; i < 100; i++){
+			rand_expression = rand.nextInt(5) + 1; //5 is max, 1 is min
+			if(rand_expression < 1 || rand_expression > 5){
+				System.out.println("Rand_Expression is out of bounds"); //just testing bounds
+			}
+		}
+		System.out.println("Testing bounds is done");
+
 		
 		
 	}
