@@ -124,6 +124,14 @@ public class Production_Rules {
     public static LinkedList<String> productionR7(){
         System.out.println("Production Rule 7 is called");
         LinkedList<String> eq = new LinkedList<String>();
+
+        /*
+        Read me
+        comment out the line "eq.add("V");
+        uncomment the block
+        need to fix boundary for rand.nextInt() to be between 65 - 90 for A-Z and 97-122 for a-z
+        rand.nextInt(int x) is from 0 (inclusive) to x (exclusive)
+         */
         eq.add("V"); //temp will change to values accordingly
 
         /*
