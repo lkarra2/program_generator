@@ -138,8 +138,8 @@ public class RandomExpression {
 		for(int i = 0; i < expression.size();i++){
 			String node = (String) expression.get(i);
 			if( node.equals("E") ){ //too lazy to convert to <number> | <var> so converting right away (might change later)
-				randVN = rand.nextInt(7) + 6; // random 6 or 7
-				if(randVN == 6){
+				randVN = rand.nextInt(1); // random 6 or 7
+				if(randVN == 0){
 					prod = pr.productionR6(); //<number>
 				}else{
 					prod = pr.productionR7(); //<var>

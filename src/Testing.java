@@ -61,6 +61,7 @@ public class Testing {
 		
 		L2.remove(index);
 		L2.addAll(index, L3);
+
 		
 		System.out.print("L2 List: ");
 		for(int i = 0; i < L2.size(); i++){
@@ -79,6 +80,27 @@ public class Testing {
 			}
 		}
 		System.out.println("Testing bounds is done");
+
+		System.out.println("Testing letters");
+		int b = 65;
+		char a = (char)b;
+
+		System.out.println(a);
+		int start = 65;
+		for(int i = 0; i < 26; i ++){
+			char l = (char)(start + i);
+			System.out.print( l + " ");
+		}
+
+		LinkedList<String> eq = new LinkedList<String>();
+		//int start = 65;
+		int random;
+		random = rand.nextInt(91) + 65;
+		char l = (char)(random);
+		eq.add("" + l);
+		System.out.println("\n random value: " + random + " Testing convert char letter to String" + eq.get(0));
+		System.out.println();
+
 
 		
 		

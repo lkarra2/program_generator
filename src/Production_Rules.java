@@ -12,6 +12,7 @@ import java.util.*;
  */
 
 public class Production_Rules {
+    static Random rand = new Random();
 
     public Production_Rules(){
 
@@ -89,20 +90,89 @@ public class Production_Rules {
     }
 
     //<number> 	   ::= 0 | [1-9][0-9]*				//production rule 6
+    //if( [1-9][0-9]* ) cap at 5 digits with 50% of continuing until 5
     public static LinkedList<String> productionR6(){
         System.out.println("Production Rule 6 is called");
         LinkedList<String> eq = new LinkedList<String>();
-        eq.add("N"); //temp will change to values accordingly
+        //eq.add("N"); //temp will change to values accordingly
 
+        int random = rand.nextInt(2) + 1; // value of 1 or 2 for 50%
+        if( random == 1){
+            eq.add("0");
+        }
+        else {
+            random = rand.nextInt(9) + 1; // values 1-9
+            eq.add("" + random);
+
+            //50% chance to add another value
+            for (int i = 0; i < 4; i++) { //capped at adding 5 values so the returned list is not too long
+                random = rand.nextInt(2) + 1;
+                if (random == 1) { //add another value
+                    random = rand.nextInt(10); //generate another value to add
+                    eq.add("" + random);
+                } else {
+                    break; //break from for loop
+                }
+            }
+        }
 
         return eq;
     }
 
     //<var>        ::= [_a-zA-Z][_a-zA-Z0-9]{1,255} //production rule 7
+    //[_a-zA-Z] = starts with "_" followed by a-z or A-Z
     public static LinkedList<String> productionR7(){
         System.out.println("Production Rule 7 is called");
         LinkedList<String> eq = new LinkedList<String>();
-        eq.add("V"); //temp will change to values accordingly
+
+        /*
+        Read me
+        comment out the line "eq.add("V");
+        uncomment the block
+        need to fix boundary for rand.nextInt() to be between 65 - 90 for A-Z and 97-122 for a-z
+        rand.nextInt(int x) is from 0 (inclusive) to x (exclusive)
+         */
+        //eq.add("V"); //temp will change to values accordingly
+
+
+        eq.add("_");
+        int random = rand.nextInt(2) + 1;
+
+        if(random == 1){ //upper case
+            int A = 65;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + A);
+            eq.add("" + l);
+        }
+        else{ //lower case
+            int a = 97;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + a);
+            eq.add("" + l);
+        }
+
+        eq.add("_");
+
+        random = rand.nextInt(3) + 1;
+        if(random == 1){ //upper case
+            int A = 65;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + A);
+            eq.add("" + l);
+        }
+        else if(random == 2){ //lower case
+            int a = 97;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + a);
+            eq.add("" + l);
+        }
+        else{
+            random = rand.nextInt(10);
+            eq.add(""+random);
+        }
+
+        random = rand.nextInt(255) + 1; //not sure about this one since its {1-255}
+        eq.add(""+random);
 
 
         return eq;
