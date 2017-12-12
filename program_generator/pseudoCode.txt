@@ -1,0 +1,26 @@
+Main.generate
+    maxInterfaces = configuration.getMaxInterfaces
+    noOfInterfaces = randomOf(1,maxInterfaces)
+    for(i=0;i<noOfInterfaces;i++)
+        interfaceName = createInterfaceName
+        interface = new InterfaceGeneratorOf(interfaceName, configuration)
+        interface.generate
+        listOfInterfaces.add(interface)
+
+
+InterfaceGenerator.constructor
+    maxMethods = configuration.getMaxMethodsPerInterface
+    noOfMethods = random(1, maxMethods)
+    for(i=0;i<noOfMethods;i++)
+        methodName = createMethodName
+        method = new methodGeneratorOf(methodName, configuration)
+        listOfMethods.add(method)
+
+InterfaceGenerator.generate
+    output("public interface "+name+"{\n")
+    for(i=0;i<listOfMethods.size;i++)
+        listOfMethods[i].generate
+    output("}")
+
+
+
