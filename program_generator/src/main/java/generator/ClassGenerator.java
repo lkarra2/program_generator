@@ -67,6 +67,13 @@ public class ClassGenerator {
             String methodName = vg.getVariableName();
             ClassMethodGenerator method = new ClassMethodGenerator(methodName, configuration, false);
             methodList.add(method);
+            //Polymorphism - Generating methods that are overloading an existing method
+            double overloadingProbability = 0.25;
+            if(rand.nextDouble()<=overloadingProbability ){
+                ClassMethodGenerator classMethodGenerator = new ClassMethodGenerator(method.methodName, configuration, false);
+                methodList.add(classMethodGenerator);
+                i++;
+            }
         }
 
         String classContent = "public class " + className;

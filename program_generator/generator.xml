@@ -1,5 +1,5 @@
 <ProgGen>
-    <noOfInterfaces>10</noOfInterfaces>                         //done
+    <noOfInterfaces>5</noOfInterfaces>                         //done
     <maxNoOfMethodsPerInterface>5</maxNoOfMethodsPerInterface>  //done
     <noOfClasses>4</noOfClasses>                                //done
     <maxAllowedMethodCalls>5</maxAllowedMethodCalls>            //done
