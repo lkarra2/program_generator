@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 public class InterfaceGeneratorTest {
 
     @Test
-    public void TestGenerate() throws Exception {
+    public void testGenerate() throws Exception {
         InterfaceGenerator classGenerator = new InterfaceGenerator("interfaceSome", new Configuration(),0, null);
         Pattern p = Pattern.compile("public\\sinterface\\sinterfaceSome[.\\s\\S]*");//. represents single character
         String output = classGenerator.generate();

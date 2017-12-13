@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class ClassGeneratorTest {
 
     @Test
-    public void TestGenerate() throws Exception {
+    public void testGenerate() throws Exception {
         ClassGenerator classGenerator = new ClassGenerator("Class1", new Configuration());
         Pattern p = Pattern.compile("public\\sclass\\sTenKLOCClass1[.\\s\\S]*");
         String output = classGenerator.generate(1,null,null,0);
