@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 public class ClassMethodGeneratorTest {
 
     @Test
-    public void TestGenerateInterfaceMethod(){
+    public void testGenerateInterfaceMethod(){
         ClassMethodGenerator classGenerator = new ClassMethodGenerator("method1", new Configuration(),true);
         Pattern p = Pattern.compile("\\tpublic\\svoid\\smethod1[.\\s\\S]*");
         String output = classGenerator.generate(null);
@@ -22,7 +22,7 @@ public class ClassMethodGeneratorTest {
     }
 
     @Test
-    public void TestGenerateClassMethod(){
+    public void testGenerateClassMethod(){
         ClassMethodGenerator classGenerator = new ClassMethodGenerator("method1", new Configuration(),false);
         Pattern p = Pattern.compile("\\tpublic\\svoid\\smethod1[.\\S\\s]*");
         String output = classGenerator.generate(null);
