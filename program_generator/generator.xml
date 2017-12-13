@@ -1,5 +1,5 @@
 <ProgGen>
-    <noOfInterfaces>10</noOfInterfaces>                         //done
+    <noOfInterfaces>4</noOfInterfaces>                         //done
     <maxNoOfMethodsPerInterface>5</maxNoOfMethodsPerInterface>  //done
     <noOfClasses>4</noOfClasses>                                //done
     <maxAllowedMethodCalls>5</maxAllowedMethodCalls>            //done
@@ -8,6 +8,7 @@
     <maximumArraySize>100</maximumArraySize>                    //done
     <maxNoOfArrays>5</maxNoOfArrays>                            //done
     <noOfInheritanceChains>7</noOfInheritanceChains>
+    <overloadingProbability>0.25</overloadingProbability> //done
     <maxNestedIfs>4</maxNestedIfs>                              //done
     <minNoOfClassFields>2</minNoOfClassFields>                  //done
     <allowArray>yes</allowArray>                                //done
@@ -20,7 +21,7 @@
     <maxRecursionDepth>1</maxRecursionDepth>
     <classNamePrefix>TenKLOC</classNamePrefix>                  //done
     <maxNoOfClassFields>5</maxNoOfClassFields>                  //done
-    <maxNoOfMethodsPerClass>20</maxNoOfMethodsPerClass>         //done
+    <maxNoOfMethodsPerClass>5</maxNoOfMethodsPerClass>         //done
     <recursionProbability>0.5</recursionProbability>            //done
     <minNoOfParametersPerMethod>2</minNoOfParametersPerMethod>  //done
     <intMaxValue>100</intMaxValue>                              //done
