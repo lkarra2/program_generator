@@ -141,18 +141,12 @@ public class ExpressionGenerator {
                 //converted and added the "V" to a string into variableArr
                 //System.out.println("V: Variable converted to String: " + strAtoS.toString());
 
-
                 expression.remove(i);
                 expression.addAll(i, prod_r7);
             }
         }
 
         /*
-        System.out.println("Printing Expression: ");
-        for(String s : expression){
-            System.out.print(s.toString());
-        }
-
         //Converting to string with initalized variables and expression
         System.out.println("\nExpression Generator");
         */
