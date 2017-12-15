@@ -121,35 +121,9 @@ public class ProductionRules {
     public static LinkedList<String> productionR7(){
         LinkedList<String> eq = new LinkedList<String>();
 
-        /*
-        Read me
-        comment out the line "eq.add("V");
-        uncomment the block
-        need to fix boundary for rand.nextInt() to be between 65 - 90 for A-Z and 97-122 for a-z
-        rand.nextInt(int x) is from 0 (inclusive) to x (exclusive)
-         */
-        //eq.add("V"); //temp will change to values accordingly
+        //eq.add("_");
+        int random = rand.nextInt(3) + 1;
 
-
-        eq.add("_");
-        int random = rand.nextInt(2) + 1;
-
-        if(random == 1){ //upper case
-            int A = 65;
-            random = rand.nextInt(26); //values from 0 to 25
-            char l = (char)(random + A);
-            eq.add("" + l);
-        }
-        else{ //lower case
-            int a = 97;
-            random = rand.nextInt(26); //values from 0 to 25
-            char l = (char)(random + a);
-            eq.add("" + l);
-        }
-
-        eq.add("_");
-
-        random = rand.nextInt(3) + 1;
         if(random == 1){ //upper case
             int A = 65;
             random = rand.nextInt(26); //values from 0 to 25
@@ -163,8 +137,30 @@ public class ProductionRules {
             eq.add("" + l);
         }
         else{
+            eq.add("_");
+        }
+
+        //eq.add("_");
+
+        random = rand.nextInt(4) + 1;
+        if(random == 1){ //upper case
+            int A = 65;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + A);
+            eq.add("" + l);
+        }
+        else if(random == 2){ //lower case
+            int a = 97;
+            random = rand.nextInt(26); //values from 0 to 25
+            char l = (char)(random + a);
+            eq.add("" + l);
+        }
+        else if(random ==3 ){
             random = rand.nextInt(10);
             eq.add(""+random);
+        }
+        else{
+            eq.add("_");
         }
 
         random = rand.nextInt(255) + 1; //not sure about this one since its {1-255}
