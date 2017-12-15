@@ -115,9 +115,5 @@ public class ClassMethodGenerator {
         return condLoop;
     }
 
-/*   public static void main(String[] args) {
-        ClassMethodGenerator classMethodGenerator = new ClassMethodGenerator("myRecursiveMethod",new Configuration());
-        System.out.println(classMethodGenerator.generate(false,));
-    }*/
 
  }

@@ -23,7 +23,7 @@ public class ClassGenerator {
     private boolean isOverriding = false;
     ClassMethodGenerator overridingMethod;
 
-    //Construtor that creates the class
+    //Constructor that creates the class
     public ClassGenerator(String className, Configuration configuration) {
         this.configuration=configuration;
         this.className = className;
@@ -127,14 +127,11 @@ public class ClassGenerator {
         for(ClassMethodGenerator method: methodList) {
             if(methodIndex==methodList.size()-1 && isOverriding){
                 classContent += "\t\tpublic void "+method.methodName+"("+method.methodsParameters+"){\n\t\t//Overriding method\n\t\t}\n";
-
             }
             else if (methodIndex<interfaceMethodIndex){
                 classContent += method.generate(methodList);
-
             } else {
                 classContent += method.generate( methodList);
-
             }
             methodIndex++;
         }
