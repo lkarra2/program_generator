@@ -38,7 +38,12 @@ public class ClassMethodGenerator {
         }
         myMethod+=";\n";
         */
+
+        ExpressionGenerator eg = new ExpressionGenerator();
+        String expression = eg.generateExpression();
+         myMethod.append(expression);
          generateMethodBody(myMethod);
+
 
 
          myMethod.append("\t}\n\n");

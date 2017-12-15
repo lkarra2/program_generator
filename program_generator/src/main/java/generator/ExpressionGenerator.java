@@ -16,6 +16,10 @@ public class ExpressionGenerator {
         int rand_expression = rand.nextInt(5) + 1; //5 is max, 1 is min
         LinkedList<String> expression = new LinkedList<String>(); //An "accumulator" for our production rules
 
+
+        int expressionLength = 10; //CHANGE THIS VALUE TO VALIUE FROM CONFIGURATION FILE
+
+
         ArrayList<String> variableArr = new ArrayList<String>();
 
         //This switch statement is to get the main template for expression
@@ -79,15 +83,17 @@ public class ExpressionGenerator {
                 break;
             }
         }
-        while(while_counter < 10); //testing do-while with a limited run
+        while(while_counter < expressionLength); //testing do-while with a limited run
 
         //Production and Expressions done, need to change while loop back to true
 
+        /*
         System.out.println("Printing Expression Before Converting V and N: ");
         for(String s : expression){
             System.out.print(s.toString());
         }
         System.out.println();
+        */
 
         //Next step is to convert <var> | <numbers> to their values
         int randVN;
@@ -110,7 +116,7 @@ public class ExpressionGenerator {
                     }
                     variableArr.add(strAtoS.toString());
                     //converted and added the "V" to a string into variableArr
-                    System.out.println("E to V: Variable converted to String: " + strAtoS.toString());
+                    //System.out.println("E to V: Variable converted to String: " + strAtoS.toString());
 
                 }
                 expression.remove(i);
@@ -133,7 +139,7 @@ public class ExpressionGenerator {
                 }
                 variableArr.add(strAtoS.toString());
                 //converted and added the "V" to a string into variableArr
-                System.out.println("V: Variable converted to String: " + strAtoS.toString());
+                //System.out.println("V: Variable converted to String: " + strAtoS.toString());
 
 
                 expression.remove(i);
@@ -141,6 +147,7 @@ public class ExpressionGenerator {
             }
         }
 
+        /*
         System.out.println("Printing Expression: ");
         for(String s : expression){
             System.out.print(s.toString());
@@ -148,6 +155,7 @@ public class ExpressionGenerator {
 
         //Converting to string with initalized variables and expression
         System.out.println("\nExpression Generator");
+        */
 
         //Convert LinkedList<String> to a String
         String[] temp = expression.toArray(new String[0]); //Correct start from 0 - expString.length
@@ -163,7 +171,7 @@ public class ExpressionGenerator {
 
         for(int i = 0; i < variableArr.size(); i++){
             int value = rand.nextInt(999); //need to randomly generate 3 digits
-            returnString.append("int " + variableArr.get(i).toString() + " = " + Integer.toString(value) + ";\n");
+            returnString.append("\t\tint " + variableArr.get(i).toString() + " = " + Integer.toString(value) + ";\n");
 
         }
 
@@ -177,7 +185,7 @@ public class ExpressionGenerator {
         returnString.append("\n");
 
         //add expression to returnString
-        returnString.append("int " + varName.toString() + " = " + expressionString);
+        returnString.append("\t\tint " + varName.toString() + " = " + expressionString + ";\n\n");
 
 
         return returnString.toString();
@@ -185,6 +193,7 @@ public class ExpressionGenerator {
 
     }
 
+    /*
     public static void main(String[] args){
 
         ExpressionGenerator g = new ExpressionGenerator();
@@ -195,4 +204,5 @@ public class ExpressionGenerator {
         System.out.println("Expression: " + exp);
 
     }
+    */
 }
