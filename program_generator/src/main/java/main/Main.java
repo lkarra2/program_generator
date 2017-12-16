@@ -18,6 +18,5 @@ public class Main {
         new File("./generatedFiles").mkdir();
         javaProgram.generateInterfaces();
         javaProgram.generateClasses();
-
     }
 }

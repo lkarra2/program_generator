@@ -12,7 +12,7 @@
     <maxNestedIfs>4</maxNestedIfs>                              //done
     <minNoOfClassFields>2</minNoOfClassFields>                  //done
     <allowArray>yes</allowArray>                                //done
-    <maxInheritanceDepth>5</maxInheritanceDepth>                //done
+    <maxInheritanceDepth>5</maxInheritanceDepth>       ine         //done
     <maxNoOfParametersPerMethod>5</maxNoOfParametersPerMethod>  //done
     <minInheritanceDepth>2</minInheritanceDepth>                //done
     <totalLOC>10000</totalLOC>
