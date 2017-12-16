@@ -96,8 +96,8 @@ Implements the following production rules:
 <expression> ::= <expression> * <expression>    //production rule 3
 <expression> ::= ( <expression> )                //production rule 4
 <expression> ::= <number> | <var>                //production rule 5
-<number>        ::= 0 | [1-9][0-9]*                //production rule 6
-<var>        ::= [_a-zA-Z][_a-zA-Z0-9]{1,255} //production rule 7
+<number>     ::= 0 | [1-9][0-9]*                //production rule 6
+<var>        ::= [a-zA-Z][_a-zA-Z0-9]{10} 		//production rule 7
 
 
 ## Object Oriented Constructs
