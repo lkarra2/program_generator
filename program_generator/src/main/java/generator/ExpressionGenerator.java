@@ -1,17 +1,19 @@
 package generator;
 
+import config.Configuration;
 import productionrules.ProductionRules;
 import java.util.LinkedList;
 import java.util.Random;
 import java.util.ArrayList;
 
 /**
- * Generate expressions based on production rule set in package productionrules
+ * Generates expressions based on production rule set in package productionrules
  */
 
 public class ExpressionGenerator {
     public static ProductionRules pr = new ProductionRules();
     Random rand = new Random();
+    Configuration config = new Configuration();
 
 
     //public LinkedList<String> generateExpression() {
@@ -21,7 +23,7 @@ public class ExpressionGenerator {
         LinkedList<String> expression = new LinkedList<String>(); //An "accumulator" for our production rules
 
 
-        int expressionLength = 10; //CHANGE THIS VALUE TO VALIUE FROM CONFIGURATION FILE
+        int expressionLength = config.getExpressionLength(); //CHANGE THIS VALUE TO VALIUE FROM CONFIGURATION FILE
 
 
         ArrayList<String> variableArr = new ArrayList<String>();

@@ -3,8 +3,9 @@ package generator;
 import config.Configuration;
 
 /**
- * Generate conditional loop statements: FOR loop, WHILE loop, and nested if
+ * Generates conditional loop statements: FOR loop, WHILE loop, and nested if
  */
+
 public class ConditionalLoopGenerator {
     Configuration configuration;
     public ConditionalLoopGenerator(Configuration configuration) {

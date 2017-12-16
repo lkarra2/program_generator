@@ -18,6 +18,11 @@ import java.util.List;
  */
 
 public class Configuration {
+    public int getExpressionLength() {
+        return expressionLength;
+    }
+
+    int expressionLength;
     public int getMaxNoOfArrays() {
         return maxNoOfArrays;
     }
@@ -199,6 +204,7 @@ public class Configuration {
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
                     maxNoOfArrays = Integer.parseInt(eElement.getElementsByTagName("maxNoOfArrays").item(0).getTextContent());
+                    expressionLength = Integer.parseInt(eElement.getElementsByTagName("expressionLength").item(0).getTextContent());
                     minInterfacesToImplement = Integer.parseInt(eElement.getElementsByTagName("minInterfacesToImplement").item(0).getTextContent());
                     noOfInterfaces = Integer.parseInt(eElement.getElementsByTagName("noOfInterfaces").item(0).getTextContent());
                     maxNoOfMethodsPerInterface = Integer.parseInt(eElement.getElementsByTagName("maxNoOfMethodsPerInterface").item(0).getTextContent());
