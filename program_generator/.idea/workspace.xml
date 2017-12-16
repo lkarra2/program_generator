@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee709cc-4edc-4ab2-a6d7-2013f2c31a93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/generator/ProgramGenerator.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/ParseTree.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/Production_Rules.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/RandomExpression.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/Testing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/config/Configuration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/ClassGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/ClassMethodGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/ConditionalLoopGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/ExpressionGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/FieldGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/IdentifierGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/InterfaceGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/MethodGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/generator/MethodInvocationGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/program_generator/main/Main.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/program_generator/productionrules/ProductionRules.class" afterPath="$PROJECT_DIR$/out/production/classes/productionrules/ProductionRules.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ConditionalLoopGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ConditionalLoopGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ExpressionGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ExpressionGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/IdentifierGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/IdentifierGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/InterfaceGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/InterfaceGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/MethodGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/MethodGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/MethodInvocationGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/MethodInvocationGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/main/Main.class" afterPath="$PROJECT_DIR$/out/production/classes/main/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" afterPath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/productionrules/ProductionRules.java" afterPath="$PROJECT_DIR$/src/main/java/productionrules/ProductionRules.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/RandomExpression.java" afterPath="$PROJECT_DIR$/../src/RandomExpression.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,12 +69,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1288">
-              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+            <state relative-caret-position="105">
+              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgramGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generator/ProgramGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,18 +106,8 @@
       <file leaf-file-name="ClassMethodGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalLoopGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -71,28 +116,8 @@
       <file leaf-file-name="ExpressionGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdentifierGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,8 +126,18 @@
       <file leaf-file-name="InterfaceGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -111,8 +146,18 @@
       <file leaf-file-name="MethodInvocationGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdentifierGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -121,18 +166,8 @@
       <file leaf-file-name="MethodGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generator.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -143,10 +178,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>E7w</find>
+      <find>uEewnT</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -507,9 +548,7 @@
         <option value="$PROJECT_DIR$/src/main/java/generator/TenKLOCCMbMCw.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/generator/MethodGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/MethodGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java" />
@@ -517,21 +556,25 @@
         <option value="$PROJECT_DIR$/src/test/java/generator/IdentifierGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/Configuration.java" />
         <option value="$PROJECT_DIR$/generator.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/productionrules/ProductionRules.java" />
+        <option value="$PROJECT_DIR$/generatedFiles/TenKLOCIiCUvM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ProgramGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="716" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -606,6 +649,14 @@
               <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="productionrules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -635,17 +686,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="generator" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="generator" />
-    </key>
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -893,75 +934,39 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="FieldGeneratorTest_testGenerateArray - 2017.12.12 at 22h 22m 58s.xml">
-      <configuration name="FieldGeneratorTest.testGenerateArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGenerate - 2017.12.12 at 22h 26m 12s.xml">
-      <configuration name="IdentifierGeneratorTest.testGenerate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGenerate - 2017.12.12 at 22h 27m 11s.xml">
-      <configuration name="IdentifierGeneratorTest.testGenerate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetInterfaceOrClassName - 2017.12.12 at 22h 29m 47s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetInterfaceOrClassName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetInterfaceOrClassName - 2017.12.12 at 22h 30m 13s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetInterfaceOrClassName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetSingleChar - 2017.12.12 at 22h 28m 20s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetSingleChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetSingleChar - 2017.12.12 at 22h 28m 37s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetSingleChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetSingleChar - 2017.12.12 at 22h 28m 46s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetSingleChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentifierGeneratorTest_testGetSingleChar - 2017.12.12 at 22h 28m 51s.xml">
-      <configuration name="IdentifierGeneratorTest.testGetSingleChar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="generator_in_program_generator_test - 2017.12.12 at 22h 30m 29s.xml">
-      <configuration name="generator in program_generator_test" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2394196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2353362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -985,23 +990,20 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2394196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23247497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2394196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32574257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1013,124 +1015,433 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCXigLRb.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TNhauc.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/ZeqzYw.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNefaGI.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCBLvItK.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNecCSP.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCLraAxe.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZDtaEP.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCTjOMGS.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZuayqg.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCPpVMHu.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCHFVyiB.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCBVMCpi.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCLYsaQZ.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNZycqd.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCXxXOsc.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCVTOduy.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCXKHBNd.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCMshZMj.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZszjsR.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCQRrYPv.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYAQqun.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCKjfQmG.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCBLZxjZ.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZSoNDv.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCLIKcVd.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCWdZrbJ.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCDlETDI.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCSrOiYO.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCTYhqna.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZFhHsr.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCETjmTc.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCRBMrUg.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCVWbblr.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYKoztV.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCBHILaQ.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCJBfCcp.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCOgJuSm.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/BPLMBI.class" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCHTgOUJ.java" />
-    <entry file="file://$PROJECT_DIR$/generatedFiles/ITIyQN.class" />
-    <entry file="file://$PROJECT_DIR$/generator.xml">
+    <entry file="file://$PROJECT_DIR$/generatedFiles/PnPZPP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCAqVEXy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCMseIgL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCPEOPLc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/QxyNwa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/PRUuzl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/PRUuzl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/XYNbfU.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCFWNmRa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="55" column="62" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCGbOYgq.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2308">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#4807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNRLACZ.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCPFeRGA.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2653">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCPFeRGA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2770">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYjJBuu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYjJBuu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNqluko.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCLwJRJV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="22" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCXbDVdV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCOJJHHx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/productionrules/ProductionRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="133" column="35" lean-forward="true" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCVrShQe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/EKwZJF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/JiSINt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/VwWMHs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/EAjkln.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/Tkdufq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/YalWuO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/UtDquD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCNiNoNf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCIiCUvM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCFEzzSK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/AdcuwO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/LepBTR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/VyQxqh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCHvMUkC.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCDiEseP.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCDiEseP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCHvMUkC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCJQaVeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCQWmsAB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generator/ConditionalLoopGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="645">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+        <state relative-caret-position="105">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ExpressionGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/InterfaceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ProgramGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,9 @@ import config.Configuration;
 import java.util.HashMap;
 import java.util.Random;
 
-/* Class Used to generate a method invocation call */
+/**
+ *  Class Used to generate a method invocation call
+ */
 
 public class MethodInvocationGenerator {
     ClassMethodGenerator classMethodGenerator;
