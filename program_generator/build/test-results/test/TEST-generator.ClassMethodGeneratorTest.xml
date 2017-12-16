@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="generator.ClassMethodGeneratorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-12-16T06:24:13" hostname="Manaswis-MacBook-Pro.local" time="0.053">
+  <properties/>
+  <testcase name="testGenerateInterfaceMethodForClass" classname="generator.ClassMethodGeneratorTest" time="0.01"/>
+  <testcase name="testGenerateClassMethod" classname="generator.ClassMethodGeneratorTest" time="0.043"/>
+  <system-out><![CDATA[	public void method1() {
+		int u9s4_ = 543;
+		int r8h_3 = 106;
+		int N_r7 = 978;
+		int I76 = 996;
+
+		int r_p760 = ((0-(5)*u9s4_+18)*r8h_3*91-N_r7+I76);
+
+		method1();
+	}
+
+
+true
+	protected void method1(Object ktzZKZ,byte hQMKQs,int kATtxN) {
+		int a_d = 706;
+		int w8_ = 489;
+		int Z43l2 = 493;
+		int os68_ = 302;
+		int wz_ = 514;
+
+		int D465f = ((75)*a_d+0)+w8_*Z43l2+4587-os68_*wz_+8+63;
+
+		for(int fzrMBxA=0; fzrMBxA<10; fzrMBxA++){
+		}
+	}
+
+
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

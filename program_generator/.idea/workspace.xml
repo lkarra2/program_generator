@@ -2,167 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee709cc-4edc-4ab2-a6d7-2013f2c31a93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/lib/hamcrest-core-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/lib/junit-4.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/config/Configuration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/AccessModifierGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/ClassGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/ClassMethodGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/ConditionalLoopGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/ExpressionGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/FieldGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/IdentifierGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/InterfaceGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/MethodGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/MethodInvocationGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/generator/ProgramGenerator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/main/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/productionrules/ProductionRules.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$23fb91a232811b4141c4$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$23fb91a232811b4141c4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321$$anonfun$$sbtdef$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$59ef5d5c13be2d56d505.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$59ef5d5c13be2d56d505.cache" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/AOIZTn.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/CZGipO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/CZGipO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/FWZWZx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/FavjIt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/GmbUKZ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/IZMGoK.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/IZMGoK.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/LMbqSO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/MyQxXk.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/OyTZpz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/SErFyM.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/SErFyM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TQmwWd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCGiMSZB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCIENzys.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCIrsNFH.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCIrsNFH.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCKFhILu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCMISUkS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCMISUkS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCOBUgTz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCOBUgTz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCSXokdY.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCTynvDQ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCTynvDQ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCUYjFfz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCXSmzRY.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCXaBZgu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/TenKLOCYMmBXg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/WVXaGO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/XmzEEB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/XmzEEB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/XnTlug.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatedFiles/XnTlug.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1b2b26229c43c5ecb9e.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e3f7c65b36793cfff6fb.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../README Program Generator.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1b2b26229c43c5ecb9e$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321$$anonfun$$sbtdef$3.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1b2b26229c43c5ecb9e$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$23fb91a232811b4141c4$.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$b1b2b26229c43c5ecb9e.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$23fb91a232811b4141c4.cache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e3f7c65b36793cfff6fb$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$59ef5d5c13be2d56d505$$anonfun$$sbtdef$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e3f7c65b36793cfff6fb$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$59ef5d5c13be2d56d505$.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/project/target/config-classes/$e3f7c65b36793cfff6fb.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$2bfa4014e70c3f807321.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/generator/ClassGeneratorTest.class" afterPath="$PROJECT_DIR$/out/test/classes/generator/ClassGeneratorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/generator/ClassMethodGeneratorTest.class" afterPath="$PROJECT_DIR$/out/test/classes/generator/ClassMethodGeneratorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" afterPath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/program_generator-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/program_generator-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/config/Configuration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/AccessModifierGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/ClassGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/ClassMethodGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/ConditionalLoopGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/ExpressionGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/FieldGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/IdentifierGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/InterfaceGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/MethodGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/MethodInvocationGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/generator/ProgramGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/main/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/productionrules/ProductionRules.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/generator/ClassGenerator.class" afterPath="$PROJECT_DIR$/build/classes/java/main/generator/ClassGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/main/generator/ClassMethodGenerator.class" afterPath="$PROJECT_DIR$/build/classes/java/main/generator/ClassMethodGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/program_generator.jar" afterPath="$PROJECT_DIR$/build/libs/program_generator.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/program_generator_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/program_generator_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/program_generator_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/program_generator_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program_generator.iml" afterPath="$PROJECT_DIR$/program_generator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/program_generator-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/program_generator-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/program_generator-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/default/program_generator-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-program_generator-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator$sources_2.10/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator$sources_2.10/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator$sources_2.10/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator$sources_2.10/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator_2.10/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator_2.10/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator_2.10/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/program-generator/program-generator_2.10/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator$sources_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.10/resolution-cache/reports/program-generator-program-generator_2.10-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -196,64 +67,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassMethodGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FieldGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="131" lean-forward="false" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassMethodGeneratorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -476,8 +297,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3016758923000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3768958343" />
+        <entry key="$PROJECT_DIR$" value="3026545611000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3267607526" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -662,8 +483,9 @@
         <option value="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/generator/MethodGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -694,6 +516,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -710,27 +533,6 @@
               <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program_generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -747,40 +549,29 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="program_generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="b5f07198:RTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -986,7 +777,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1513403963907" />
+    <option name="lastUpdateTimestamp" value="1513405447841" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1017,6 +808,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1062,45 +856,69 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5973000" />
+    <option name="totallyTimeSpent" value="6829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="812" extended-state="0" />
+    <frame x="145" y="23" width="1111" height="877" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.49204865" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.342711" sideWeight="0.5079514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4948849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.342711" sideWeight="0.49204865" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32647333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5079514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32496512" sideWeight="0.49204865" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49372384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37377962" sideWeight="0.49204865" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22356495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,31 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/generator/MethodGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generator/IdentifierGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/generator/InterfaceGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/generator/IdentifierGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,18 +1076,37 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/program_generator/out/test/classes/generator/ClassGeneratorTest.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="261" column="5" lean-forward="false" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCWSYTxM.java" />
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCRgDLrm.java" />
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCQrHFDp.java" />
+    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYdNMKI.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/generator/InterfaceGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1305,6 +1119,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/generator/MethodGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/generator/IdentifierGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1313,77 +1153,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="109" column="45" lean-forward="false" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/generator/ClassGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCWSYTxM.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCRgDLrm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCQrHFDp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCYdNMKI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,7 +1210,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>R Skeletons</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1452,7 +1245,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: junit:junit:4.11</last-edited>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

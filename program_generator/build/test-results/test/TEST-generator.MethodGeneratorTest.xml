@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="generator.MethodGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-16T06:24:12" hostname="Manaswis-MacBook-Pro.local" time="0.057">
+  <properties/>
+  <testcase name="TestGenerate" classname="generator.MethodGeneratorTest" time="0.057"/>
+  <system-out><![CDATA[	public void method1();
+
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

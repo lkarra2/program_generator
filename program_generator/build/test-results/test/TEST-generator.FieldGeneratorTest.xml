@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="generator.FieldGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-12-16T06:24:13" hostname="Manaswis-MacBook-Pro.local" time="0.038">
+  <properties/>
+  <testcase name="testGenerateIfFieldType" classname="generator.FieldGeneratorTest" time="0.007"/>
+  <testcase name="testGenerateArray" classname="generator.FieldGeneratorTest" time="0.013"/>
+  <testcase name="testGenerateIfParameterType" classname="generator.FieldGeneratorTest" time="0.015"/>
+  <system-out><![CDATA[private static Object newField
+Object[] newField= new Object[18]
+char newField
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

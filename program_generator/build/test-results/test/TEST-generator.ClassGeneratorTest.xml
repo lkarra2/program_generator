@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="generator.ClassGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-16T06:24:12" hostname="Manaswis-MacBook-Pro.local" time="0.023">
+  <properties/>
+  <testcase name="testGenerate" classname="generator.ClassGeneratorTest" time="0.023"/>
+  <system-out><![CDATA[public class TenKLOCClass1{
+	protected short dYeYhn;
+	protected static float kWgnRp;
+	int[] wegrif= new int[91];
+	byte[] gMOLNY= new byte[2];
+	long[] wGzaaQ= new long[27];
+	short[] hgqqyu= new short[2];
+	long[] dXnUBx= new long[27];
+	public TenKLOCClass1(){
+	}
+
+	private Object bhvtCD(String doNVSo,Object qwasQl) {
+
+		int J89 = (4+84854);
+
+		Object sVNaYG=new Object();
+		return sVNaYG;
+	}
+
+}
+
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
