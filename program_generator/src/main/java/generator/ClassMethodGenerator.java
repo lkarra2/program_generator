@@ -30,8 +30,14 @@ public class ClassMethodGenerator {
     }
 
     //Generating constructor for the class
-    String generateConstructor(){
-        String myConstructor = "\tpublic "+methodName+"(){\n\t}\n\n";
+    String generateConstructor(Boolean isSubclass){
+        String myConstructor="";
+        if(!isSubclass) {
+             myConstructor = "\tpublic " + methodName + "(){\n\t}\n\n";
+        } else {
+             myConstructor = "\tpublic " + methodName + "(){\n\t\tsuper();\n\t}\n\n";
+
+        }
         return myConstructor;
 
     }

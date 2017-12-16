@@ -4,7 +4,7 @@
 		module="program_generator-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171215224732"
+		publication="20171215232056"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

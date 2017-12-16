@@ -2,7 +2,6 @@ package generator;
 
 import config.Configuration;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
@@ -24,7 +23,7 @@ public class ClassGenerator {
     private List<InterfaceGenerator> interfaceList;
     List<InterfaceGenerator> implementsInterface = new ArrayList<>();
     List<InterfaceGenerator> interfaceHierarchy = new ArrayList<>();
-    private boolean isOverriding = false;
+    private boolean isSubclass = false;
     ClassMethodGenerator overridingMethod;
 
     //Constructor that creates the class
@@ -107,12 +106,12 @@ public class ClassGenerator {
 
        //Get constructor for the class
         int methodIndex = 0;
-        classContent.append(methodList.get(0).generateConstructor());
+        classContent.append(methodList.get(0).generateConstructor(isSubclass));
         methodList.remove(methodList.get(0));
 
         //Get method bodies
         for(ClassMethodGenerator method: methodList) {
-            if(methodIndex==methodList.size()-1 && isOverriding){
+            if(methodIndex==methodList.size()-1 && isSubclass){
                 classContent.append("\t\tpublic "+method.returnType+" "+method.methodName+"("+method.methodsParameters+"){\n");
                 classContent.append("\t\t\t\t/* This is an Overriding Method */\n");
                 if(!method.returnType.equals("void")){
@@ -170,7 +169,7 @@ public class ClassGenerator {
             if(!method.accessmodifier.equals("private")){
                 overridingMethod = method;
                 methodList.add(overridingMethod);
-                isOverriding = true;
+                isSubclass = true;
                 break;
             }
         }

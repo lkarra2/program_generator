@@ -2,8 +2,6 @@ package generator;
 
 import config.Configuration;
 import org.junit.Test;
-import generator.ClassGenerator;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
