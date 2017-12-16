@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee709cc-4edc-4ab2-a6d7-2013f2c31a93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/classes/generator/AccessModifierGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/generator/AccessModifierGenerator.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/ParseTree.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/Production_Rules.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/RandomExpression.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project/Testing.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/config/Configuration.class" afterPath="$PROJECT_DIR$/out/production/classes/config/Configuration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/ClassMethodGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/FieldGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/FieldGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/generator/MethodInvocationGenerator.class" afterPath="$PROJECT_DIR$/out/production/classes/generator/MethodInvocationGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/generator/ClassMethodGeneratorTest.class" afterPath="$PROJECT_DIR$/out/test/classes/generator/ClassMethodGeneratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/generator/FieldGeneratorTest.class" afterPath="$PROJECT_DIR$/out/test/classes/generator/FieldGeneratorTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" afterPath="$PROJECT_DIR$/../.idea/unaiza_faiz_lakshmimanaswi_karra_james_chou_course_project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.xml" afterPath="$PROJECT_DIR$/generator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java" afterPath="$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/RandomExpression.java" afterPath="$PROJECT_DIR$/../src/RandomExpression.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,10 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="-658">
               <caret line="119" column="92" lean-forward="true" selection-start-line="119" selection-start-column="92" selection-end-line="119" selection-end-column="92" />
               <folding />
             </state>
@@ -50,8 +64,18 @@
       <file leaf-file-name="ClassMethodGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+            <state relative-caret-position="392">
+              <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="255" column="5" lean-forward="false" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -479,13 +503,13 @@
         <option value="$PROJECT_DIR$/generatedFiles/TenKLOCMQlTQc.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/FieldGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/generator/ClassMethodGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/Configuration.java" />
         <option value="$PROJECT_DIR$/generator.xml" />
         <option value="$PROJECT_DIR$/generatedFiles/TenKLOCYQIsNo.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/MethodInvocationGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/FieldGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/Configuration.java" />
       </list>
     </option>
   </component>
@@ -904,8 +928,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2394196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406288" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1188,17 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="e#3671#3672#0" expanded="true" />
-            <element signature="e#3715#3716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCZcFYqO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1295,14 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generatedFiles/TenKLOCSKkZwU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1337,7 +1342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="-658">
           <caret line="119" column="92" lean-forward="true" selection-start-line="119" selection-start-column="92" selection-end-line="119" selection-end-column="92" />
           <folding />
         </state>
@@ -1381,6 +1386,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generator/ClassMethodGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="146" column="5" lean-forward="false" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="255" column="5" lean-forward="false" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
           <folding />
         </state>
       </provider>
