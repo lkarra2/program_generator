@@ -2,6 +2,10 @@ package generator;
 
 import config.Configuration;
 
+/**
+ * Builds method signatures for interfaces
+ */
+
 public class MethodGenerator {
 
     Configuration configuration;

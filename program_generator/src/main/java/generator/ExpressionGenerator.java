@@ -5,6 +5,10 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.ArrayList;
 
+/**
+ * Generate expressions based on production rule set in package productionrules
+ */
+
 public class ExpressionGenerator {
     public static ProductionRules pr = new ProductionRules();
     Random rand = new Random();
@@ -133,7 +137,7 @@ public class ExpressionGenerator {
                 //Convert LinkedList to String
                 String[] expString = prod_r7.toArray(new String[0]);
 
-                StringBuilder strAtoS = new StringBuilder();
+               StringBuilder strAtoS = new StringBuilder();
                 for(String s : expString){
                     strAtoS.append(s);
                 }
@@ -141,8 +145,9 @@ public class ExpressionGenerator {
                 //converted and added the "V" to a string into variableArr
                 //System.out.println("V: Variable converted to String: " + strAtoS.toString());
 
-                expression.remove(i);
-                expression.addAll(i, prod_r7);
+               expression.remove(i);
+               // expression.addAll(i, prod_r7);
+                expression.add(i, strAtoS.toString());
             }
         }
 
@@ -165,7 +170,7 @@ public class ExpressionGenerator {
 
         for(int i = 0; i < variableArr.size(); i++){
             int value = rand.nextInt(999); //need to randomly generate 3 digits
-            returnString.append("\t\tint " + variableArr.get(i).toString() + " = " + Integer.toString(value) + ";\n");
+            returnString.append("\t\tint " + variableArr.get(i)+ " = " + Integer.toString(value) + ";\n");
 
         }
 
@@ -179,7 +184,7 @@ public class ExpressionGenerator {
         returnString.append("\n");
 
         //add expression to returnString
-        returnString.append("\t\tint " + varName.toString() + " = " + expressionString + ";\n\n");
+        returnString.append("\t\tint " + varName + " = " + expressionString + ";\n\n");
 
 
         return returnString.toString();

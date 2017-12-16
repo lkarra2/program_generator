@@ -3,6 +3,10 @@ package generator;
 import config.Configuration;
 import java.util.*;
 
+/**
+ * Generates methods for a class
+ */
+
 public class ClassMethodGenerator {
     Configuration configuration;
     String methodName;
@@ -31,22 +35,16 @@ public class ClassMethodGenerator {
      String generate( List<ClassMethodGenerator> methodList) {
         this.methodList=methodList;
         StringBuilder myMethod = new StringBuilder("\tpublic void "+methodName+"("+methodsParameters+") {\n");
-        /*ExpressionGenerator eg = new ExpressionGenerator();
-        LinkedList exp = eg.generateExpression();
-        for(int i = 0; i < exp.size(); i++){
-            myMethod+=exp.get(i);
-        }
-        myMethod+=";\n";
-        */
 
+        //Get a random expressions
         ExpressionGenerator eg = new ExpressionGenerator();
         String expression = eg.generateExpression();
-         myMethod.append(expression);
-         generateMethodBody(myMethod);
+        myMethod.append(expression);
 
+        //Get method body
+        generateMethodBody(myMethod);
+        myMethod.append("\t}\n\n");
 
-
-         myMethod.append("\t}\n\n");
         return myMethod.toString();
     }
 
@@ -58,6 +56,7 @@ public class ClassMethodGenerator {
              myMethod.append(invokeMethod.methodCall());
          }
 
+        //Invoke other methods from this method
         int maxMethodCall = configuration.getMaxAllowedMethodCalls();
         int noOfMethodCalls=0;
         if(methodList!=null) {
@@ -65,7 +64,6 @@ public class ClassMethodGenerator {
             String isIndirectRecursion = configuration.getAllowIndirectRecursion();
             for (int i = 0; i < noOfMethodCalls; i++) {
                 if (isIndirectRecursion.equals("no")) {
-
                     //myMethod.append(invokeMethod.methodCall());
                 } else {
                     int randIndex = rand.nextInt(methodList.size());
@@ -79,6 +77,7 @@ public class ClassMethodGenerator {
             }
         }
 
+        //Getting conditional statements
         for(int i=0; i<rand.nextInt(3); i++) {
            myMethod.append(getConditionalLoop());
         }
@@ -106,7 +105,7 @@ public class ClassMethodGenerator {
     }
 
     private String getConditionalLoop(){
-        String condLoop = "";
+        String condLoop ="";
         ConditionalLoopGenerator conditionalLoopGenerator = new ConditionalLoopGenerator(configuration);
         int randomType = rand.nextInt(3);
         if(randomType==0){ //For loop
@@ -120,9 +119,5 @@ public class ClassMethodGenerator {
         return condLoop;
     }
 
-/*   public static void main(String[] args) {
-        ClassMethodGenerator classMethodGenerator = new ClassMethodGenerator("myRecursiveMethod",new Configuration());
-        System.out.println(classMethodGenerator.generate(false,));
-    }*/
 
  }

@@ -2,11 +2,14 @@ package generator;
 
 import config.Configuration;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
-/*
+/**
     ClassGenerator creates Class and populates it with fields and methods
+    Also contains methods of interface that it implements
+    And depending on probability overrides the superclass methods
  */
 
 public class ClassGenerator {
@@ -17,13 +20,14 @@ public class ClassGenerator {
     List<FieldGenerator> fieldList = new ArrayList<>();
     List<FieldGenerator> arrayList = new ArrayList<>();
     private int classCount;
-    private List<InterfaceGenerator> interfaceList;
     private int interfaceCount;
+    private List<InterfaceGenerator> interfaceList;
     List<InterfaceGenerator> implementsInterface = new ArrayList<>();
+    List<InterfaceGenerator> interfaceHierarchy = new ArrayList<>();
     private boolean isOverriding = false;
     ClassMethodGenerator overridingMethod;
 
-    //Construtor that creates the class
+    //Constructor that creates the class
     public ClassGenerator(String className, Configuration configuration) {
         this.configuration=configuration;
         this.className = className;
@@ -37,9 +41,9 @@ public class ClassGenerator {
         this.classList = classList;
         this.interfaceList = interfaceList;
         this.interfaceCount = interfaceCount;
-        int inheritanceCheck = rand.nextInt(3);
         String classPrefix = configuration.getClassNamePrefix();
         className = classPrefix + className;
+
         //Creating field list
         int minNoOfFields = configuration.getMinNoOfClassFields();
         int maxNoOfFields = configuration.getMaxNoOfClassFields();
@@ -50,6 +54,7 @@ public class ClassGenerator {
             FieldGenerator field  = new FieldGenerator(fieldName, configuration);
             fieldList.add(field);
         }
+
         //Creating ArrayList
         int maxNoOfArrays = configuration.getMaxNoOfArrays();
         for (int i = 0; i < maxNoOfArrays; i++) {
@@ -58,9 +63,11 @@ public class ClassGenerator {
             FieldGenerator field  = new FieldGenerator(arrayName, configuration);
             arrayList.add(field);
         }
+
         //Creating constructor for the class
         ClassMethodGenerator constructor = new ClassMethodGenerator(className, configuration,false);
         methodList.add(constructor);
+
         //Creating method list
         int maxMethods = configuration.getMaxNoOfMethodsPerClass();
         int noOfMethods = rand.nextInt(maxMethods) + 1;
@@ -78,68 +85,91 @@ public class ClassGenerator {
             }
         }
 
-        String classContent = "public class " + className;
-        if (classCount > 1 && interfaceCount > 1) {
-            if (inheritanceCheck == 0) {
-                classContent += " extends " + this.classList.get(this.classCount - 2).className;
-                //Get a random method present in super class such that the subclass can override the method
-                overridingMethod = this.classList.get(this.classCount - 2).methodList.get(rand.nextInt(this.classList.get(this.classCount - 2).methodList.size()));
-                methodList.add(overridingMethod);
-                isOverriding = true;
-            }else if (inheritanceCheck == 1) {
-                classContent += " implements " + this.interfaceList.get(this.interfaceCount - 2).interfaceName;
-                implementsInterface.add(this.interfaceList.get(this.interfaceCount - 2));
-            } else {
-                classContent += " extends " + this.classList.get(this.classCount -2).className + " implements " + this.interfaceList.get(this.interfaceCount-2).interfaceName;
-                implementsInterface.add(this.interfaceList.get(this.interfaceCount - 2));
-                //Get a random method present in super class such that the subclass can override the method
-                 overridingMethod = this.classList.get(this.classCount - 2).methodList.get(rand.nextInt(this.classList.get(this.classCount - 2).methodList.size()));
-                isOverriding = true;
-            }
-        }
-        classContent += "{\n";
+        //Start Building the class - getting signature of the class
+        StringBuilder classContent = new StringBuilder();
+        classContent.append(getClassSignature());
+
         //generating fields;
         for(FieldGenerator field: fieldList){
-            classContent += "\t"+field.generate()+";\n";
+            classContent.append("\t"+field.generate()+";\n");
         }
         for(FieldGenerator field: arrayList) {
-            classContent += "\t" + field.generateArray() + ";\n";
+            classContent.append("\t" + field.generateArray() + ";\n");
         }
-        //adding interface methods to the method list
-        int interfaceMethodIndex=0;
+
+        //finding the hierarchy of interfaces whose methos the class needs to implement
         if(!implementsInterface.isEmpty()) {
-            interfaceMethodIndex = methodList.size();
-            for (InterfaceGenerator interfaceGenerator : implementsInterface) {
-                for (MethodGenerator methodGenerator : interfaceGenerator.methodList) {
-                    ClassMethodGenerator classMethodGenerator = new ClassMethodGenerator(methodGenerator.methodName, configuration,true);
-                    methodList.add(classMethodGenerator);
-                }
-            }
-            if(isOverriding){
-                methodList.add(overridingMethod);
+            for(InterfaceGenerator interfaceGenerator: implementsInterface){
+                interfaceHierarchy.add(interfaceGenerator);
+                getInterfaceImplementList(interfaceGenerator);
             }
         }
-        classContent += "\n";
-       // Boolean isClassConstructor = true;
+
+       //Get constructor for the class
         int methodIndex = 0;
-        classContent +=methodList.get(0).generateConstructor();
+        classContent.append(methodList.get(0).generateConstructor());
         methodList.remove(methodList.get(0));
+
+        //Get method bodies
         for(ClassMethodGenerator method: methodList) {
             if(methodIndex==methodList.size()-1 && isOverriding){
-                classContent += "\t\tpublic void "+method.methodName+"("+method.methodsParameters+"){\n\t\t//Overriding method\n\t\t}\n";
-
+                classContent.append("\t\tpublic void "+method.methodName+"("+method.methodsParameters+"){\n\t\t//Overriding method\n\t\t}\n");
             }
-            else if (methodIndex<interfaceMethodIndex){
-                classContent += method.generate(methodList);
-
-            } else {
-                classContent += method.generate( methodList);
-
+            else {
+                classContent.append(method.generate( methodList));
             }
             methodIndex++;
         }
-        classContent+="}\n";
-        return classContent;
+
+        //Implementing interface methods
+        for(InterfaceGenerator interfaceGenerator: interfaceHierarchy) {
+            for (MethodGenerator method : interfaceGenerator.methodList) {
+                ClassMethodGenerator classMethodGenerator = new ClassMethodGenerator(method.methodName,configuration,true);
+                classContent.append(classMethodGenerator.generate(methodList));
+            }
+        }
+        classContent.append("}\n");
+        return classContent.toString();
+    }
+
+    private String getClassSignature() {
+        StringBuilder classContent = new StringBuilder();
+        classContent.append("public class " + className);
+        Random rand = new Random();
+        int inheritanceCheck = rand.nextInt(3);
+        if (classCount > 1 && interfaceCount > 1) {
+            if (inheritanceCheck == 0) {
+                classContent.append(" extends " + classList.get(classCount - 2).className);
+                //Get a random method present in super class such that the subclass can override the method
+                overridingMethod = classList.get(classCount - 2).methodList.get(rand.nextInt(classList.get(this.classCount - 2).methodList.size()));
+                methodList.add(overridingMethod);
+                isOverriding = true;
+            }else if (inheritanceCheck == 1) {
+                classContent.append(" implements " + interfaceList.get(interfaceCount - 2).interfaceName);
+                implementsInterface.add(interfaceList.get(interfaceCount - 2));
+            } else {
+                classContent.append(" extends " + classList.get(classCount -2).className + " implements " + interfaceList.get(interfaceCount-2).interfaceName);
+                implementsInterface.add(interfaceList.get(interfaceCount - 2));
+                //Get a random method present in super class such that the subclass can override the method
+                overridingMethod = classList.get(classCount - 2).methodList.get(rand.nextInt(classList.get(classCount - 2).methodList.size()));
+                isOverriding = true;
+            }
+        }
+        classContent.append("{\n");
+        return classContent.toString();
+    }
+
+    private void getInterfaceImplementList(InterfaceGenerator interfaceGenerator) {
+        if(interfaceGenerator.extendsInterface==null){
+            return;
+        } else {
+            for (InterfaceGenerator extendsInterface : interfaceGenerator.extendsInterface) {
+                if (!interfaceHierarchy.contains(extendsInterface)) {
+                    interfaceHierarchy.add(extendsInterface);
+                    getInterfaceImplementList(extendsInterface);
+               }
+            }
+        }
     }
 
     public static void main(String[] args) {

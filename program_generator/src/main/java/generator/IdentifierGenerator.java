@@ -2,6 +2,10 @@ package generator;
 
 import java.util.Random;
 
+/**
+ * Create identifiers based on the rule [a-zA-z]{5}
+ */
+
 public class IdentifierGenerator {
 
     String variableName = "";

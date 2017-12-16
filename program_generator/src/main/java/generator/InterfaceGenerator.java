@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/*
+/**
     InterfaceGenerator creates Interface and populates it with fields and method declarations
  */
 
@@ -16,6 +16,7 @@ public class InterfaceGenerator {
     Configuration configuration;
     public String interfaceName;
     List<MethodGenerator> methodList = new ArrayList<>();
+    List<InterfaceGenerator> extendsInterface = new ArrayList<>();
 
     //Construtor that creates the interface
     public InterfaceGenerator(String interfaceName, Configuration configuration, int interfaceCount, List<InterfaceGenerator> interfaceList) {
@@ -39,25 +40,30 @@ public class InterfaceGenerator {
         int maxInheritenceDepth = configuration.getMaxInheritanceDepth();
         int minInheritenceDepth = configuration.getMinInheritanceDepth();
         Random rand = new Random();
-        String myInterface = "public interface " + interfaceName;
+        StringBuilder myInterface = new StringBuilder("public interface " + interfaceName);
+        //Creating an extends relation for the interface
         if (interfaceCount > 1) {
             int noOfInheritences = rand.nextInt(maxInheritenceDepth-minInheritenceDepth)+minInheritenceDepth;
-            if (interfaceCount == 1)
-                myInterface += " extends " + this.interfaceList.get(0).interfaceName;
-            else if (noOfInheritences < interfaceCount) {
-                myInterface += " extends ";
+            if (interfaceCount == 1) {
+                InterfaceGenerator interfaceGenerator = this.interfaceList.get(0);
+                myInterface.append(" extends " + interfaceGenerator.interfaceName);
+                extendsInterface.add(interfaceGenerator);
+            }else if (noOfInheritences < interfaceCount) {
+                myInterface.append(" extends ");
                 for(int i=1; i <= noOfInheritences; i++) {
-                    myInterface += this.interfaceList.get(interfaceList.size()-i).interfaceName;
+                    InterfaceGenerator interfaceGenerator = this.interfaceList.get(interfaceList.size()-i);
+                    myInterface.append(interfaceGenerator.interfaceName);
+                    extendsInterface.add(interfaceGenerator);
                     if (i < noOfInheritences)
-                        myInterface += ",";
+                        myInterface.append(",");
                 }
             }
         }
-        myInterface += "{\n";;
+        myInterface.append("{\n");;
         for(MethodGenerator method: methodList) {
-           myInterface += method.generate();
+           myInterface.append(method.generate());
         }
-        myInterface+="}\n";
-        return myInterface;
+        myInterface.append("}\n");
+        return myInterface.toString();
     }
 }

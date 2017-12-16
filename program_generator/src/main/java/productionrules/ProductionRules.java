@@ -123,22 +123,25 @@ public class ProductionRules {
         LinkedList<String> eq = new LinkedList<String>();
 
         int random = rand.nextInt(3) + 1;
+        boolean isNodeChar = true;
 
-        if(random == 1){ //upper case
-            int A = 65;
-            random = rand.nextInt(26); //values from 0 to 25
-            char l = (char)(random + A);
-            eq.add("" + l);
-        }
-        else if(random == 2){ //lower case
-            int a = 97;
-            random = rand.nextInt(26); //values from 0 to 25
-            char l = (char)(random + a);
-            eq.add("" + l);
-        }
-        else{
-            eq.add("_");
-        }
+        //do {
+            if (random == 1) { //upper case
+                int A = 65;
+                random = rand.nextInt(26); //values from 0 to 25
+                char l = (char) (random + A);
+                if (l != 'N' || l != 'V' || l != 'E') {
+                    eq.add("" + l);
+                    isNodeChar = false;
+                }
+
+            } else  { //lower case
+                int a = 97;
+                random = rand.nextInt(26); //values from 0 to 25
+                char l = (char) (random + a);
+                eq.add("" + l);
+            }
+      //  }while (isNodeChar);
 
         random = rand.nextInt((255) + 1); //length of var name
 
@@ -148,7 +151,9 @@ public class ProductionRules {
                 int A = 65;
                 random = rand.nextInt(26); //values from 0 to 25
                 char l = (char) (random + A);
-                eq.add("" + l);
+                if (l == 'N' || l == 'V' || l == 'E'){}
+                  //  eq.add("" + l);
+
             } else if (random == 2) { //lower case
                 int a = 97;
                 random = rand.nextInt(26); //values from 0 to 25
