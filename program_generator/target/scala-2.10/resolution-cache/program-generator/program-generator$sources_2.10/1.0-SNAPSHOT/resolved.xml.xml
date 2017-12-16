@@ -4,7 +4,7 @@
 		module="program-generator$sources_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20171215224739"
+		publication="20171215232109"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

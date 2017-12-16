@@ -11,9 +11,9 @@ import static org.junit.Assert.assertTrue;
 public class ClassMethodGeneratorTest {
 
     @Test
-    public void testGenerateInterfaceMethod(){
+    public void testGenerateInterfaceMethodForClass(){
         ClassMethodGenerator classGenerator = new ClassMethodGenerator("method1", new Configuration(),true);
-        Pattern p = Pattern.compile("\\tpublic\\svoid\\smethod1[.\\s\\S]*");
+        Pattern p = Pattern.compile("\\tpublic\\s(int|byte|short|String|Object|long|float|double|char|void)\\smethod1[.\\s\\S]*");
         String output = classGenerator.generate(null);
         Matcher m = p.matcher(output);
         System.out.println(output);
@@ -24,7 +24,7 @@ public class ClassMethodGeneratorTest {
     @Test
     public void testGenerateClassMethod(){
         ClassMethodGenerator classGenerator = new ClassMethodGenerator("method1", new Configuration(),false);
-        Pattern p = Pattern.compile("\\t(public|private|protected)\\svoid\\smethod1[.\\S\\s]*");
+        Pattern p = Pattern.compile("\\t(public|private|protected)\\s(int|byte|short|String|Object|long|float|double|char|void)\\smethod1[.\\S\\s]*");
         String output = classGenerator.generate(null);
         Matcher m = p.matcher(output);
         System.out.println(output);
