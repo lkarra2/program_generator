@@ -54,19 +54,22 @@ public class ClassMethodGenerator {
          }
 
         int maxMethodCall = configuration.getMaxAllowedMethodCalls();
-        int noOfMethodCalls = rand.nextInt(maxMethodCall<methodList.size()?maxMethodCall:methodList.size());
-        String isIndirectRecursion = configuration.getAllowIndirectRecursion();
-        for(int i=0; i<noOfMethodCalls; i++){
-            if(isIndirectRecursion.equals("no")) {
+        int noOfMethodCalls=0;
+        if(methodList!=null) {
+            noOfMethodCalls = rand.nextInt(maxMethodCall < methodList.size() ? maxMethodCall : methodList.size());
+            String isIndirectRecursion = configuration.getAllowIndirectRecursion();
+            for (int i = 0; i < noOfMethodCalls; i++) {
+                if (isIndirectRecursion.equals("no")) {
 
-                //myMethod.append(invokeMethod.methodCall());
-            } else {
-                int randIndex = rand.nextInt(methodList.size());
-                String methodCallName = methodList.get(randIndex).methodName;
-                if(!methodCallName.equals(this.methodName) && methodCallIndex.add(randIndex)){
-                   // methodCallIndex.add(randIndex);
-                    MethodInvocationGenerator invokeMethod = new MethodInvocationGenerator(methodList.get(randIndex), configuration);
-                    myMethod.append(invokeMethod.methodCall());
+                    //myMethod.append(invokeMethod.methodCall());
+                } else {
+                    int randIndex = rand.nextInt(methodList.size());
+                    String methodCallName = methodList.get(randIndex).methodName;
+                    if (!methodCallName.equals(this.methodName) && methodCallIndex.add(randIndex)) {
+                        // methodCallIndex.add(randIndex);
+                        MethodInvocationGenerator invokeMethod = new MethodInvocationGenerator(methodList.get(randIndex), configuration);
+                        myMethod.append(invokeMethod.methodCall());
+                    }
                 }
             }
         }

@@ -4,13 +4,12 @@ import config.Configuration;
 import generator.ClassGenerator;
 import generator.InterfaceGenerator;
 import generator.IdentifierGenerator;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 /*
     Main Class to be run.
@@ -69,12 +68,14 @@ public class Main {
     }
 
     //Controls flow of Program Generator
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         Main myMain = new Main();
         new File("./generatedFiles").mkdir();
         myMain.generateInterfaces();
         myMain.generateClasses();
+
+        ProcessBuilder pb = new ProcessBuilder("ls", "./generatedFiles/");
+        Process process = pb.start();
+        process.waitFor(100, TimeUnit.SECONDS);
     }
-
-
 }

@@ -3,7 +3,7 @@ package generator;
 import config.Configuration;
 
 /**
- * Generate conditional loop statements: FOR loop and WHILE loop
+ * Generate conditional loop statements: FOR loop, WHILE loop, and nested if
  */
 public class ConditionalLoopGenerator {
     Configuration configuration;
