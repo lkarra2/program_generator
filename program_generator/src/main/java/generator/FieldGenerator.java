@@ -4,8 +4,8 @@ import config.Configuration;
 import java.util.List;
 import java.util.Random;
 
-/*
-    fieldGenerator creates a field declaration
+/**
+    FieldGenerator creates a field declaration
  */
 
 public class FieldGenerator {

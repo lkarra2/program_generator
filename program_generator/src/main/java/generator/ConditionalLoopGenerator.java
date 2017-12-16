@@ -13,18 +13,16 @@ public class ConditionalLoopGenerator {
 
      String generateForLoop(){
         int maxValueForLoop = configuration.getMaxValueForLoop();
-        String forLoop = "";
         IdentifierGenerator identifierGenerator = new IdentifierGenerator();
         String identifier = "f"+identifierGenerator.getVariableName();
-        forLoop+="\t\tfor(int "+identifier+"=0; "+identifier+"<"+maxValueForLoop+"; "+identifier+"++){\n\t\t}\n";
+        String forLoop="\t\tfor(int "+identifier+"=0; "+identifier+"<"+maxValueForLoop+"; "+identifier+"++){\n\t\t}\n";
         return forLoop;
     }
 
      String generateWhileLoop(){
-         String whileLoop = "";
          IdentifierGenerator identifierGenerator = new IdentifierGenerator();
          String identifier = "w"+identifierGenerator.getVariableName();
-         whileLoop+="\t\tint "+identifier+"=0;\n"+"\t\twhile("+identifier+"<5){\n\t\t\t"+identifier+"++;\n\t\t}\n";
+         String whileLoop ="\t\tint "+identifier+"=0;\n"+"\t\twhile("+identifier+"<5){\n\t\t\t"+identifier+"++;\n\t\t}\n";
          return whileLoop;
     }
 
@@ -46,9 +44,4 @@ public class ConditionalLoopGenerator {
         return ifStmt;
     }
 
-    /*public static void main(String[] args){
-        ConditionalLoopGenerator c = new ConditionalLoopGenerator(new Configuration());
-        System.out.println( c.generateForLoop());
-        System.out.println(c.generateWhileLoop());
-    }*/
 }

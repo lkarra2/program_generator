@@ -174,6 +174,12 @@ public class Configuration {
 
     List<String> allowedTypes = new ArrayList<>();
 
+    float overloadingProbability;
+
+    public float getOverloadingProbability() {
+        return overloadingProbability;
+    }
+
     public Configuration() {
         File configFile = new File("./generator.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -211,6 +217,8 @@ public class Configuration {
                     maxNoOfMethodsPerClass = Integer.parseInt(eElement.getElementsByTagName("maxNoOfMethodsPerClass").item(0).getTextContent());
                     recursionProbability = Float.parseFloat(eElement.getElementsByTagName("recursionProbability").item(0).getTextContent());
                     intMaxValue = Integer.parseInt(eElement.getElementsByTagName("intMaxValue").item(0).getTextContent());
+                    overloadingProbability = Float.parseFloat(eElement.getElementsByTagName("overloadingProbability").item(0).getTextContent());
+
                 }
             }
             nList = doc.getElementsByTagName("allowedTypes");
@@ -244,4 +252,6 @@ public class Configuration {
     public static void main(String[] args){
         Configuration conf = new Configuration();
     }
+
+
 }
