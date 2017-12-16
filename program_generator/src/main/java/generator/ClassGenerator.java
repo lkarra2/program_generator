@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
-    ClassGenerator creates Class and populates it with fields and methods
-    Also contains methods of interface that it implements
-    And depending on probability overrides the superclass methods
+     This class creates a randomly generated Class and populates it with fields and methods.
+     It contains methods of interfaces which it also implements.
+     Depending on specified probability, it overrides the superclass methods.
  */
 
 public class ClassGenerator {
@@ -170,10 +170,5 @@ public class ClassGenerator {
                }
             }
         }
-    }
-
-    public static void main(String[] args) {
-        ClassGenerator classGenerator = new ClassGenerator("newClass", new Configuration());
-        System.out.println(classGenerator.generate(1,null,null,0));
     }
 }

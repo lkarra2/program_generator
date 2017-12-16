@@ -25,6 +25,7 @@
     <recursionProbability>0.5</recursionProbability>            //done
     <minNoOfParametersPerMethod>2</minNoOfParametersPerMethod>  //done
     <intMaxValue>100</intMaxValue>                              //done
+    <expressionLength>10</expressionLength>                     //done
     <allowedTypes>                                              //done(fields)
         <type1>char</type1>
         <type2>byte</type2>

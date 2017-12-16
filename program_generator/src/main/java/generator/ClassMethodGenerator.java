@@ -4,7 +4,7 @@ import config.Configuration;
 import java.util.*;
 
 /**
- * Generates methods for a class
+ * Generates method implementation for a class' methods.
  */
 
 public class ClassMethodGenerator {
