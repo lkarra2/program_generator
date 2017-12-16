@@ -1,1 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/inspectionProfiles/
+build/
+out/
+project/target/streams/compile/incCompileSetup/
+target/
+.idea/
