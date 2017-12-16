@@ -1,7 +1,7 @@
 <ProgGen>
-    <noOfInterfaces>4</noOfInterfaces>                         //done
+    <noOfInterfaces>10</noOfInterfaces>                         //done
     <maxNoOfMethodsPerInterface>5</maxNoOfMethodsPerInterface>  //done
-    <noOfClasses>4</noOfClasses>                                //done
+    <noOfClasses>10</noOfClasses>                                //done
     <maxAllowedMethodCalls>5</maxAllowedMethodCalls>            //done
     <maxValueForLoop>10</maxValueForLoop>                       //done
     <allowIndirectRecursion>yes</allowIndirectRecursion>         //done

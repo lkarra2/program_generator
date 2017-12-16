@@ -2,6 +2,8 @@
 .idea/inspectionProfiles/
 build/
 out/
-project/target/streams/compile/incCompileSetup/
+project/target/
 target/
 .idea/
+generatedFiles/
+.gradle

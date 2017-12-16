@@ -27,9 +27,7 @@ public class ProgramGenerator {
     //Creates and writes Interfaces into .java file in directory ./generatedFiles/*.java
     public void generateInterfaces() throws FileNotFoundException {
         Random rand = new Random();
-        int maxInterfaces = configuration.getMaxInterfacesToImplement();
-        int minInterfaces = configuration.getMinInterfacesToImplement();
-        int noOfInterfaces = rand.nextInt(maxInterfaces-minInterfaces)+minInterfaces;
+        int noOfInterfaces = configuration.getNoOfInterfaces();
         for(int i=0;i<noOfInterfaces;i++) {
             IdentifierGenerator identifierGenerator = new IdentifierGenerator();
             String interfaceName = identifierGenerator.getClassOrInterfaceName();
