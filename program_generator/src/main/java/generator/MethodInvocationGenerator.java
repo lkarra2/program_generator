@@ -29,15 +29,15 @@ public class MethodInvocationGenerator {
         int objectCount=0;
         int byteCount=0;
         for(FieldGenerator field: classMethodGenerator.parameterList) {
-            String[] typeAndName = field.fieldDeclaration.split(" ");
-            if(typeAndName[0].equals("byte")){
+            String type = field.type;
+            if(type.equals("byte")){
                 IdentifierGenerator identifierGenerator = new IdentifierGenerator();
                 String byteIdentifier = identifierGenerator.getVariableName();
                 methodCallBuilder.append("\t\tbyte "+ byteIdentifier +"=100;\n");
                 parameterObjects.put("byte"+byteCount,byteIdentifier);
                 byteCount++;
             }
-            else if (typeAndName[0].equals("Object")) {
+            else if (type.equals("Object")) {
                 IdentifierGenerator identifierGenerator = new IdentifierGenerator();
                 String objIdentifier = identifierGenerator.getVariableName();
                 methodCallBuilder.append("\t\tObject "+ objIdentifier +"= new Object();\n");
@@ -55,8 +55,8 @@ public class MethodInvocationGenerator {
         objectCount=0;
         byteCount=0;
         for (FieldGenerator field : classMethodGenerator.parameterList) {
-            String[] typeAndName = field.fieldDeclaration.split(" ");
-            switch (typeAndName[0]) {
+            String type = field.type;
+            switch (type) {
                 case "short":
                     short randValue = (short) (rand.nextInt(Short.MAX_VALUE) + 1);
                     parameterValues.append("(short) "+randValue);

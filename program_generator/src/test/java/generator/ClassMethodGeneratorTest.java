@@ -24,7 +24,7 @@ public class ClassMethodGeneratorTest {
     @Test
     public void testGenerateClassMethod(){
         ClassMethodGenerator classGenerator = new ClassMethodGenerator("method1", new Configuration(),false);
-        Pattern p = Pattern.compile("\\tpublic\\svoid\\smethod1[.\\S\\s]*");
+        Pattern p = Pattern.compile("\\t(public|private|protected)\\svoid\\smethod1[.\\S\\s]*");
         String output = classGenerator.generate(null);
         Matcher m = p.matcher(output);
         System.out.println(output);

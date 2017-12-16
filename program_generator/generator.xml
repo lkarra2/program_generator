@@ -8,6 +8,7 @@
     <maximumArraySize>100</maximumArraySize>                    //done
     <maxNoOfArrays>5</maxNoOfArrays>                            //done
     <noOfInheritanceChains>7</noOfInheritanceChains>
+    <methodReturnTypeProbability>0.5</methodReturnTypeProbability> //done
     <overloadingProbability>0.25</overloadingProbability> //done
     <maxNestedIfs>4</maxNestedIfs>                              //done
     <minNoOfClassFields>2</minNoOfClassFields>                  //done

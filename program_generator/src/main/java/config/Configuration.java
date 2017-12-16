@@ -180,6 +180,12 @@ public class Configuration {
         return overloadingProbability;
     }
 
+    float returnTypeProbability;
+
+    public float getReturnTypeProbability() {
+        return returnTypeProbability;
+    }
+
     public Configuration() {
         File configFile = new File("./generator.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -218,7 +224,7 @@ public class Configuration {
                     recursionProbability = Float.parseFloat(eElement.getElementsByTagName("recursionProbability").item(0).getTextContent());
                     intMaxValue = Integer.parseInt(eElement.getElementsByTagName("intMaxValue").item(0).getTextContent());
                     overloadingProbability = Float.parseFloat(eElement.getElementsByTagName("overloadingProbability").item(0).getTextContent());
-
+                    returnTypeProbability = Float.parseFloat(eElement.getElementsByTagName("methodReturnTypeProbability").item(0).getTextContent());
                 }
             }
             nList = doc.getElementsByTagName("allowedTypes");
@@ -248,10 +254,4 @@ public class Configuration {
 
 
     }
-
-    public static void main(String[] args){
-        Configuration conf = new Configuration();
-    }
-
-
 }

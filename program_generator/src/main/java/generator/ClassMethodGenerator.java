@@ -15,6 +15,10 @@ public class ClassMethodGenerator {
     List<ClassMethodGenerator> methodList = new ArrayList<>();
     HashSet<Integer> methodCallIndex= new HashSet<>();
     String methodsParameters = "";
+    String accessmodifier = "public";
+    String returnType = "void";
+    String returnVariable = "";
+    boolean isInterfaceMethod;
 
     public ClassMethodGenerator(String methodName, Configuration configuration, boolean isInterfaceMethod) {
         this.methodName=methodName;
@@ -22,6 +26,7 @@ public class ClassMethodGenerator {
         if(!isInterfaceMethod){
             methodsParameters = parameterGenerator();
         }
+        this.isInterfaceMethod = isInterfaceMethod;
     }
 
     //Generating constructor for the class
@@ -34,15 +39,37 @@ public class ClassMethodGenerator {
     //Generating method for the class
      String generate( List<ClassMethodGenerator> methodList) {
         this.methodList=methodList;
-        StringBuilder myMethod = new StringBuilder("\tpublic void "+methodName+"("+methodsParameters+") {\n");
+         FieldGenerator returnField;
+         String returnFieldString="";
+
+        if(!isInterfaceMethod) {
+            accessmodifier = new AccessModifierGenerator().getAccessModifier();
+            float returnTypeProbability = configuration.getReturnTypeProbability();
+            if(rand.nextDouble() <= returnTypeProbability){
+                returnField  = new FieldGenerator(new IdentifierGenerator().getVariableName(), configuration);
+                returnFieldString = returnField.generate("return variable");
+                returnType = returnField.type;
+                returnVariable = returnField.name;
+            }
+        }
+        StringBuilder myMethod = new StringBuilder("\t"+accessmodifier+" "+returnType+" "+methodName+"("+methodsParameters+") {\n");
 
         //Get a random expressions
         ExpressionGenerator eg = new ExpressionGenerator();
         String expression = eg.generateExpression();
         myMethod.append(expression);
 
+         if(!returnType.equals("void")){
+             myMethod.append("\t\t"+returnFieldString+"="+(new FieldGenerator(returnVariable,configuration).initialiseVariable(returnType)+";\n"));
+         }
+
         //Get method body
         generateMethodBody(myMethod);
+
+        //Append return variable if type is not void
+         if(!returnType.equals("void")){
+             myMethod.append("\t\treturn "+returnVariable+";\n");
+         }
         myMethod.append("\t}\n\n");
 
         return myMethod.toString();
@@ -96,10 +123,10 @@ public class ClassMethodGenerator {
         }
         int i=0;
         while(i<parameterList.size()-1){
-            parameterDeclarations.append(parameterList.get(i).generate()+",");
+            parameterDeclarations.append(parameterList.get(i).generate("parameter")+",");
             i++;
         }
-        parameterDeclarations.append(parameterList.get(i).generate());
+        parameterDeclarations.append(parameterList.get(i).generate("parameter"));
 
         return parameterDeclarations.toString();
     }
@@ -118,6 +145,4 @@ public class ClassMethodGenerator {
         }
         return condLoop;
     }
-
-
  }

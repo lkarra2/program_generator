@@ -10,10 +10,20 @@ import static org.junit.Assert.*;
 
 public class FieldGeneratorTest {
     @Test
-    public void testGenerate() throws Exception {
+    public void testGenerateIfParameterType() throws Exception {
         FieldGenerator fieldGenerator = new FieldGenerator("newField", new Configuration());
         Pattern p = Pattern.compile("(int|byte|short|String|Object|long|float|double|char)\\snewField");
-        String output = fieldGenerator.generate();
+        String output = fieldGenerator.generate("parameter");
+        Matcher m = p.matcher(output);
+        System.out.println(output);
+        assertTrue(m.matches());
+    }
+
+    @Test
+    public void testGenerateIfFieldType() throws Exception {
+        FieldGenerator fieldGenerator = new FieldGenerator("newField", new Configuration());
+        Pattern p = Pattern.compile("(public|private|protected)\\s(static\\s)?(int|byte|short|String|Object|long|float|double|char)\\snewField");
+        String output = fieldGenerator.generate("field");
         Matcher m = p.matcher(output);
         System.out.println(output);
         assertTrue(m.matches());
