@@ -20,7 +20,7 @@ The randomly generated code can be found in the folder: ./generatedFiles/
 Once the shell script "javacompile.sh" is run, the .class files can also be found in this same folder.
 
 # Code Structure
-src
+```src
 |------ main
 |------ java
 |--------- config
@@ -41,7 +41,7 @@ src
 |--------------- Main.java
 |--------- productionrules
 |--------------- ProductionRules.java
-
+```
 ## Package config
 - The config package extracts data from the given configuration file "./generator.xml"
 - It contains getters() for each and every value that is provided in the configuration file. This will help us test the boundaries and limitations
