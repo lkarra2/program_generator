@@ -20,7 +20,8 @@ The randomly generated code can be found in the folder: ./generatedFiles/
 Once the shell script "javacompile.sh" is run, the .class files can also be found in this same folder.
 
 # Code Structure
-```src
+```
+src
 |------ main
 |------ java
 |--------- config
